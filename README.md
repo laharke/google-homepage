@@ -1,0 +1,1 @@
+My current project is basically a copy of the google homepage, if im feeling confident I will also do the page that shows the results but im not sure I will. I hope to do this and pick up a few skills along the way such as basic understading of HTML and CSS while also getting more familiar(?) with git and github as a whole.
