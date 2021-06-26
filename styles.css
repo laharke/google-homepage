@@ -1,0 +1,32 @@
+body {
+    font-family: Product Sans;
+    font-size: 20px;
+}
+
+.center-conteiner {
+    display: flex;
+    justify-content: center;
+    margin: 20px
+}
+
+#inputbutton {
+    background: transparent;
+    border-radius: 20px;
+    height: 34px;
+    width: 487px;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+.iconoinput {
+    color: rgb(255, 255, 0);
+    font-size: 15px;
+    position: relative;
+    left: 40px;
+    padding: 10px
+}
+
+.centerconteiner2 {
+    display: flex;
+    justify-content: center;
+}
