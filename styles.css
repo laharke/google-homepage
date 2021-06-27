@@ -16,17 +16,42 @@ body {
     width: 487px;
     font-size: 16px;
     padding-left: 40px;
+    box-shadow: rgba(32, 33, 36, 0.28) 0px 1px 6px 0px;
+    border: 1px groove #555555;
+}
+#inputbutton:focus {
+    outline: none;
+}
+#inputbutton:hover {
+    box-shadow: rgba(32, 33, 36, 0.28) 3px 3px 9px 3px;
 }
 
 .iconoinput {
-    color: rgb(255, 255, 0);
+    color: #9aa0a6;
     font-size: 15px;
     position: relative;
-    left: 40px;
-    padding: 10px
+    left: 60px;
+    padding: 10px;
+    margin-top: 18px;
 }
 
-.centerconteiner2 {
-    display: flex;
-    justify-content: center;
+.buttonclass {
+    padding: 6px 16px 6px 16px;
+    margin-left: 10px;
+    background-color: rgb(248, 249, 250);
+    border: none;
+    border-radius: 5px;
+}
+
+.buttonclass:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    border-radius: 5px;
+}
+
+#ofrecido {
+    line-height: 28px;
+    font-size: 14px;
 }
