@@ -1,6 +1,8 @@
 body {
     font-family: Product Sans;
     font-size: 20px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 main {
@@ -53,24 +55,33 @@ main {
     border: 1px solid #dadce0;
     color: #202124;
     border-radius: 5px;
+    cursor: pointer;
 }
-
+#micicon{
+    color: rgb(66, 133, 244);
+    position: relative;
+    right: 62px;
+    padding: 13px;
+    margin-top: 15px;
+}
 #ofrecido {
     line-height: 28px;
     font-size: 14px;
 }
 
-
 .linktop {
     color: rgba(0,0,0,0.87);
     text-decoration: none;
-    margin: 6px 9px 0px 6px;
+    padding-left: 15px;
+    padding-top: 16px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 13px;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
 }
 .topnav {
     display: flex;
     justify-content: flex-end;
+    height: 48;
 }
 .topnav a:hover {
     text-decoration: underline;
@@ -78,10 +89,25 @@ main {
 .profilepic {
     width: 32px;
     height: 32px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    border-radius: 65%;
 }
 .profilepic:hover {
-    box-shadow: 5px 10px #888888;
+    cursor: pointer;
 }
+
+#appsicon{
+    color: rgb(95, 99, 104);
+    font-size: 24px;
+}
+
+#appsicon:hover {
+    text-shadow: 0 0 10px #888888;
+    color: rgb(36, 172, 177);
+}
+
 
 footer {
     position: fixed;
@@ -94,6 +120,7 @@ footer {
     box-sizing: border-box;
     font-size: 14px;
     font-family: arial, sans-serif;
+    height: 96px;
   }
 footer a {
     text-decoration: none;
@@ -102,25 +129,7 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
-
-.leftfooter {
-    display: flex;
-    float: left;
-    justify-content: flex-start;
-}
-
-.leftinfo {
-    margin: 10px 10px 10px 10px;
-}
-
-.rightfooter {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.rightinfo {
-    margin: 10px 10px 10px 10px;
+    cursor: pointer;
 }
 
 .argentina {
@@ -128,9 +137,32 @@ footer a:hover {
     color: #70757a;
     display: flex;
     justify-content: flex-start;
-    margin-left: 20px;
+    padding-left: 20px;
+    height: 48px;
 }
 
 .bottomfooter {
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
     border-top: 1px ridge #70757a67;
+}
+
+.leftfooter {
+    margin: 13px;
+}
+
+.leftinfo {
+    padding: 0 10px;
+}
+
+.rightinfo {
+    padding: 0 10px;
+}
+.rightfooter {
+    margin: 13px;
+}
+
+#sobregoogle {
+    padding-left: 20px;
 }
