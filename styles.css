@@ -3,10 +3,14 @@ body {
     font-size: 20px;
 }
 
+main {
+    margin-top: 200px;
+}
+
 .center-conteiner {
     display: flex;
     justify-content: center;
-    margin: 20px
+    margin: 20px;
 }
 
 #inputbutton {
@@ -54,4 +58,79 @@ body {
 #ofrecido {
     line-height: 28px;
     font-size: 14px;
+}
+
+
+.linktop {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    margin: 6px 9px 0px 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+}
+.topnav a:hover {
+    text-decoration: underline;
+}
+.profilepic {
+    width: 32px;
+    height: 32px;
+}
+.profilepic:hover {
+    box-shadow: 5px 10px #888888;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+  }
+footer a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.leftfooter {
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+}
+
+.leftinfo {
+    margin: 10px 10px 10px 10px;
+}
+
+.rightfooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rightinfo {
+    margin: 10px 10px 10px 10px;
+}
+
+.argentina {
+    background-color: #f2f2f2;
+    color: #70757a;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.bottomfooter {
+    border-top: 1px ridge #70757a67;
 }
